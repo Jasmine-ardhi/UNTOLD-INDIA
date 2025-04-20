@@ -1,17 +1,17 @@
 import React, { createContext, useState, useEffect } from 'react';
-import postersData from '../data/posters.json';
+import posterData from '../data/posterData.json';
 
 export const PosterContext = createContext();
 
 export const PosterProvider = ({ children }) => {
-  const [posters, setPosters] = useState([]);
+  const [topicsPosters, setTopicsPosters] = useState([]);
 
   useEffect(() => {
-    setPosters(postersData);
+    setTopicsPosters(posterData);
   }, []);
 
   return (
-    <PosterContext.Provider value={{ posters }}>
+    <PosterContext.Provider value={{ topicsPosters }}>
       {children}
     </PosterContext.Provider>
   );
