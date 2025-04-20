@@ -1,0 +1,167 @@
+[
+  {
+    "id": "kashmir-files",
+    "title": "Exodus of Kashmiri Hindus",
+    "wikipedia": "Exodus of Kashmiri Hindus",
+    "movie": "The Kashmir Files",
+    "book": "Our Moon Has Blood Clots",
+    "category": "National Security & Defense"
+  },
+  {
+    "id": "uri",
+    "title": "Uri Surgical Strike",
+    "wikipedia": "2016 Uri attack",
+    "movie": "Uri: The Surgical Strike",
+    "book": "India’s Surgical Strikes: The Complete Story",
+    "category": "National Security & Defense"
+  },
+  {
+    "id": "balakot-strike",
+    "title": "Balakot Airstrike",
+    "wikipedia": "2019_Balakot_airstrike",
+    "movie": "Balakot: The Surgical Strike",
+    "book": "The Balakot Strike: Surgical Attack",
+    "category": "National Security & Defense"
+  },
+  {
+    "id": "pokhran",
+    "title": "Nuclear Tests (Pokhran)",
+    "wikipedia": "Pokhran-II",
+    "movie": "Parmanu: The Story of Pokhran",
+    "book": "India's Nuclear Bomb",
+    "category": "National Security & Defense"
+  },
+  {
+    "id": "godhra",
+    "title": "Godhra Riots",
+    "wikipedia": "Godhra train burning",
+    "movie": "Gujarat Riots",
+    "book": "The Godhra Riots",
+    "category": "Social Movements and Rights"
+  },
+  {
+    "id": "farm-laws",
+    "title": "Farm Laws Protest",
+    "wikipedia": "2020–2021_Indian_farmers'_protest",
+    "movie": "Jai Kisan (Documentary)",
+    "book": "The Kisan Andolan",
+    "category": "Social Movements and Rights"
+  },
+  {
+    "id": "caa-nrc",
+    "title": "CAA-NRC Protests",
+    "wikipedia": "Citizenship_Amendment_Act_protests",
+    "movie": "Shaheen Bagh: The Sit-In",
+    "book": "Midnight’s Borders",
+    "category": "Social Movements and Rights"
+  },
+  {
+    "id": "delhi-riots-2020",
+    "title": "Delhi Riots (2020)",
+    "wikipedia": "2020_Delhi_riots",
+    "movie": "Delhi Crime",
+    "book": "The Delhi Riots: The Untold Story",
+    "category": "Social Movements and Rights"
+  },
+ 
+  {
+    "id": "26-11",
+    "title": "26/11 Mumbai Attacks",
+    "wikipedia": "2008_Mumbai_attacks",
+    "movie": "The Attacks of 26/11",
+    "book": "The 26/11 Conspiracy",
+    "category": "Terrorism & National Security"
+  },
+  {
+    "id": "pulwama",
+    "title": "Pulwama Attack",
+    "wikipedia": "2019 Pulwama attack",
+    "movie": "Pulwama: The Untold Story",
+    "book": "The Pulse of Kashmir",
+    "category": "Terrorism & National Security"
+  },
+
+  {
+    "id": "mumbai-bombings",
+    "title": "Mumbai Bombings",
+    "wikipedia": "1993 Bombay bombings",
+    "movie": "Black Friday",
+    "book": "The 1993 Mumbai Bombings: A Story of Deceit",
+    "category": "Terrorism & National Security"
+  },
+  {
+    "id": "amarnath-yatra-attack",
+    "title": "Amarnath Yatra Attack",
+    "wikipedia": "2017 Amarnath Yatra massacre",
+    "movie": "Amarnath: Pilgrimage Under Fire",
+    "book": "Terror on the Pilgrim Trail",
+    "category": "Terrorism & National Security"
+  },
+
+  {
+    "id": "ayodhya",
+    "title": "Ayodhya",
+    "wikipedia": "Ayodhya_dispute",
+    "movie": "Ram Janmabhoomi",
+    "book": "Ayodhya: The Dark Night",
+    "category": "Religious & Communal Issues"
+  },
+
+  {
+    "id": "sabarimala",
+    "title": "Sabarimala",
+    "wikipedia": "Entry of women to Sabarimala",
+    "movie": "Sabarimala: 18 Steps of Faith",
+    "book": "Sabarimala: The Truth",
+    "category": "Religious & Communal Issues"
+  },
+  {
+    "id": "love-jihad",
+    "title": "Love Jihad",
+    "wikipedia": "Love jihad conspiracy theory",
+    "movie": "The Kerala Story",
+    "book": "Love Jihad: An Analysis",
+    "category": "Religious & Communal Issues"
+  },
+  {
+    "id": "hijab-row",
+    "title": "Hijab Row",
+    "wikipedia": "2022 Karnataka hijab row",
+    "movie": "India's Daughters (Segment)",
+    "book": "Hijab and the Republic",
+    "category": "Religious & Communal Issues"
+  },
+
+  {
+    "id": "article-370",
+    "title": "Article 370 Abrogation",
+    "wikipedia": "Revocation of the special status of Jammu and Kashmir",
+    "movie": "Article 370",
+    "book": "Kashmir: The Vajpayee Years",
+    "category": "Legal and Constitutional Matters"
+  },
+  {
+    "id": "waqf-board",
+    "title": "Waqf Board Controversy",
+    "wikipedia": "Waqf",
+    "movie": "Haqeeqat Ka Waqf (YouTube Series)",
+    "book": "Understanding Waqf in India",
+    "category": "Legal and Constitutional Matters"
+  },
+  {
+    "id": "emergency",
+    "title": "The Emergency (1975–77)",
+    "wikipedia": "The_Emergency_(India)",
+    "movie": "Indu Sarkar",
+    "book": "The Emergency: A Personal History",
+    "category": "Legal and Constitutional Matters"
+  },
+  {
+    "id": "tashkent-files",
+    "title": "The Tashkent Files",
+    "wikipedia": "The_Tashkent_Files",
+    "movie": "The Tashkent Files",
+    "book": "The Tashkent Files: The Untold Story of Shastri's Death",
+    "category": "Legal and Constitutional Matters"
+  }
+]
