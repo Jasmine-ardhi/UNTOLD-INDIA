@@ -1,5 +1,8 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
-    ]
+    "build": {
+      "env": {
+        "FLUID_COMPUTER_INIT": "true",
+        "SKEW_PROTECTION_ENABLED": "true"
+      }
+    }
   }
