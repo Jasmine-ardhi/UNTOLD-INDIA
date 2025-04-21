@@ -1,5 +1,4 @@
 import React, { createContext, useState, useEffect } from 'react';
-import posterData from '../data/posterData.json';
 
 export const PosterContext = createContext();
 
@@ -7,7 +6,11 @@ export const PosterProvider = ({ children }) => {
   const [topicsPosters, setTopicsPosters] = useState([]);
 
   useEffect(() => {
-    setTopicsPosters(posterData);
+    
+    fetch('/posterData.json')
+      .then(response => response.json())
+      .then(data => setTopicsPosters(data))
+      .catch(error => console.error('Error fetching poster data:', error));
   }, []);
 
   return (

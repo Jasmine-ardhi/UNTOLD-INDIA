@@ -70,7 +70,7 @@ const TopicDetail = () => {
       <div className="grid md:grid-cols-12 gap-10">
         {/* Left: Wikipedia Article */}
         <div className="col-span-12 md:col-span-7 prose prose-invert max-w-none bg-gray-900 p-6 rounded-xl overflow-y-auto max-h-[80vh] text-justify leading-relaxed text-gray-200 space-y-4">
-          <h2 className="text-cyan-400 text-xl mb-4 font-bold">Detailed Insights</h2>
+          <h2 className="text-cyan-400 text-3xl mb-4 font-bold">Detailed Insights</h2>
           {wikiData.split("\n").map((line, index) => {
             const trimmed = line.trim();
 
@@ -80,7 +80,7 @@ const TopicDetail = () => {
               return (
                 <h4
                   key={index}
-                  className="text-blue-300 font-semibold text-md mt-4"
+                  className="text-blue-300 font-semibold text-xl mt-4"
                 >
                   {heading}
                 </h4>
@@ -93,7 +93,7 @@ const TopicDetail = () => {
               return (
                 <h3
                   key={index}
-                  className="text-lime-400 font-bold text-lg mt-6"
+                  className="text-lime-400 font-bold text-2xl mt-6"
                 >
                   {heading}
                 </h3>
