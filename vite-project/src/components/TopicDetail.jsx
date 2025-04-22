@@ -50,7 +50,6 @@ const TopicDetail = () => {
       setMovie(null);
     }
   };
-  
 
   useEffect(() => {
     if (state) {
@@ -114,36 +113,30 @@ const TopicDetail = () => {
           {/* Book Section */}
           {book && (
             <div className="flex gap-6 items-start bg-gray-800 p-4 rounded-xl shadow">
-              <img
-                src={book.volumeInfo.imageLinks?.thumbnail}
-                alt={book.volumeInfo.title}
-                className="w-48 h-64 object-contain rounded"
-              />
+              <a
+                href={book.volumeInfo.infoLink} 
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={book.volumeInfo.imageLinks?.thumbnail}
+                  alt={book.volumeInfo.title}
+                  className="w-48 h-64 object-contain rounded"
+                />
+              </a>
               <div className="flex-1">
-                <h3 className="text-green-400 text-lg font-semibold mb-1">
-                  Book
-                </h3>
-
-                {/* Book Title */}
+                <h3 className="text-green-400 text-lg font-semibold mb-1">Book</h3>
                 <p className="text-lg font-bold">{book.volumeInfo.title}</p>
-
-                {/* Author Name */}
-                <p className="text-sm text-gray-300">
+                <p className="text-lg text-gray-300">
                   <strong>Author:</strong> {book.volumeInfo.authors?.join(", ")}
                 </p>
-
-                {/* Publisher */}
                 <p className="text-sm text-gray-300">
                   <strong>Publisher:</strong> {book.volumeInfo.publisher}
                 </p>
-
-                {/* Published Date */}
                 <p className="text-sm text-gray-300">
                   <strong>Published Date:</strong>{" "}
                   {book.volumeInfo.publishedDate}
                 </p>
-
-                {/* ISBN */}
                 <p className="text-sm text-gray-300">
                   <strong>ISBN:</strong>{" "}
                   {book.volumeInfo.industryIdentifiers
@@ -157,19 +150,23 @@ const TopicDetail = () => {
           {/* Movie Section */}
           {movie && (
             <div className="flex gap-6 items-start bg-gray-800 p-4 rounded-xl shadow">
-              <img
-                src={
-                  movie.poster_path
-                    ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
-                    : "/placeholder.png"
-                }
-                alt={movie.title}
-                className="w-48 h-64 object-contain rounded"
-              />
+              <a
+                href={`https://www.themoviedb.org/movie/${movie.id}`} 
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={
+                    movie.poster_path
+                      ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+                      : "/placeholder.png"
+                  }
+                  alt={movie.title}
+                  className="w-48 h-64 object-contain rounded"
+                />
+              </a>
               <div className="flex-1">
-                <h3 className="text-yellow-400 text-lg font-semibold mb-1">
-                  Movie
-                </h3>
+                <h3 className="text-yellow-400 text-lg font-semibold mb-1">Movie</h3>
                 <p className="text-lg font-bold">{movie.title}</p>
                 <p className="text-sm text-gray-300">{movie.overview}</p>
               </div>
