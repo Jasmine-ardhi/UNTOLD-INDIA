@@ -80,7 +80,7 @@ const TopicDetail = () => {
               return (
                 <h4
                   key={index}
-                  className="text-blue-300 font-semibold text-xl mt-4"
+                  className="text-blue-300 font-semibold text-2xl mt-4"
                 >
                   {heading}
                 </h4>
@@ -101,7 +101,7 @@ const TopicDetail = () => {
             }
 
             // Normal paragraph
-            return <p key={index}>{trimmed}</p>;
+            return <p className="text-xl" key={index}>{trimmed}</p>;
           })}
         </div>
 
@@ -125,19 +125,19 @@ const TopicDetail = () => {
                 />
               </a>
               <div className="flex-1">
-                <h3 className="text-green-400 text-lg font-semibold mb-1">Book</h3>
-                <p className="text-lg font-bold">{book.volumeInfo.title}</p>
-                <p className="text-lg text-gray-300">
+                <h3 className="text-green-400 text-3xl font-semibold mb-1">Book</h3>
+                <p className="text-2xl font-bold">{book.volumeInfo.title}</p>
+                <p className="text-xl text-gray-300">
                   <strong>Author:</strong> {book.volumeInfo.authors?.join(", ")}
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-xl text-gray-300">
                   <strong>Publisher:</strong> {book.volumeInfo.publisher}
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-xl text-gray-300">
                   <strong>Published Date:</strong>{" "}
                   {book.volumeInfo.publishedDate}
                 </p>
-                <p className="text-sm text-gray-300">
+                <p className="text-xl text-gray-300">
                   <strong>ISBN:</strong>{" "}
                   {book.volumeInfo.industryIdentifiers
                     ?.map((id) => id.identifier)
@@ -166,9 +166,9 @@ const TopicDetail = () => {
                 />
               </a>
               <div className="flex-1">
-                <h3 className="text-yellow-400 text-lg font-semibold mb-1">Movie</h3>
-                <p className="text-lg font-bold">{movie.title}</p>
-                <p className="text-sm text-gray-300">{movie.overview}</p>
+                <h3 className="text-yellow-400 text-3xl font-semibold mb-1">Movie</h3>
+                <p className="text-2xl font-bold">{movie.title}</p>
+                <p className="text-xl text-gray-300">{movie.overview}</p>
               </div>
             </div>
           )}
