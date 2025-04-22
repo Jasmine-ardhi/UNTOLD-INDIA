@@ -41,7 +41,7 @@ const TopicDetail = () => {
 
   const fetchMovie = async (movieTitle) => {
     try {
-      const tmdbKey = import.meta.env.VITE_TMDB_API_KEY;
+      const tmdbKey = process.env.VITE_TMDB_API_KEY;
       const res = await axios.get(
         `https://api.themoviedb.org/3/search/movie?query=${movieTitle}&api_key=${tmdbKey}`
       );
